@@ -1,0 +1,8 @@
+PyDara 0.7.3a6
+Full offline test suite: 768 passed, 17 warnings.
+Environment: Windows, Python 3.13.1, Pandas 3.0.6.
+Current wheel built and installed in the isolated publishing environment.
+No live TSETMC validation was performed.
+Default individual quote repair bound: 20; deferred codes are recorded in df.attrs["pydara"].
+Synthetic tests are not live market-data certification.
+GitHub Actions runs the configured cross-platform matrix separately; local results do not certify every matrix job.

@@ -1,0 +1,44 @@
+{
+  "notice": "SYNTHETIC FIXTURE. Not live data, not investment data. Second insCode is artificial.",
+  "instruments": [
+    {
+      "insCode": "46348559193224090",
+      "lVal18AFC": "فولاد",
+      "lVal30": "فولاد - نمونه ساختگی",
+      "flow": 1,
+      "yVal": "300",
+      "instrumentID": "IRO1FOLD0001",
+      "cIsin": "IRO1FOLD0000",
+      "valid": 1
+    },
+    {
+      "insCode": "9007199254740993",
+      "lVal18AFC": "شستا",
+      "lVal30": "SYNTHETIC sample",
+      "flow": 1,
+      "yVal": "300",
+      "instrumentID": "SAMPLE000001",
+      "cIsin": "SAMPLE000000",
+      "valid": 1
+    }
+  ],
+  "quote": {
+    "instrumentState": {
+      "cEtaval": "A "
+    },
+    "priceChange": 20,
+    "priceMin": 1200,
+    "priceMax": 1300,
+    "priceYesterday": 1200,
+    "priceFirst": 1210,
+    "last": true,
+    "insCode": "46348559193224090",
+    "dEven": 20240102,
+    "hEven": 93045,
+    "pClosing": 1225,
+    "pDrCotVal": 1234.5,
+    "zTotTran": 125,
+    "qTotTran5J": 200000,
+    "qTotCap": 245000000
+  }
+}

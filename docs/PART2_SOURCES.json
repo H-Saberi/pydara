@@ -1,0 +1,27 @@
+{
+  "review_date": "2026-10-13",
+  "sources": [
+    {
+      "id": "history_endpoint",
+      "source": "https://github.com/5j9/tsetmc/blob/main/tsetmc/instruments.py",
+      "blob_sha": "1def7ad63de9a2db2acc67270c91091baa2a4ae1",
+      "lines": [
+        394,
+        438
+      ],
+      "finding": "GET ClosingPrice/GetClosingPriceDailyList/{code}/0; closingPriceDaily list; n=0 available full response; date/time fields."
+    },
+    {
+      "id": "calendar",
+      "source": "https://github.com/jalaali/jalaali-js/blob/master/src/index.ts",
+      "blob_sha": "14309485f93dd8eff2e30d7ba20ba38115457a74",
+      "finding": "Borkowski Nowruz cycle computation, MIT adaptation with attribution."
+    },
+    {
+      "id": "attrs",
+      "source": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.attrs.html",
+      "finding": "attrs is experimental and not guaranteed across all operations."
+    }
+  ],
+  "not_live_verified": true
+}

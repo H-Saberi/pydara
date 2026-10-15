@@ -1,0 +1,18 @@
+{
+  "bundle": "pydara",
+  "bundle_revision": 1,
+  "package_version": "0.7.3a6",
+  "wheel": "dist/pydara-0.7.3a6-py3-none-any.whl",
+  "wheel_sha256": "8e34bda82c9b2e616a2cf892966cc788d6ba22b2383817b93406ee2f979a5996",
+  "extras": [
+    "files",
+    "notebook"
+  ],
+  "minimum_python": [
+    3,
+    12
+  ],
+  "runtime_code_changed": true,
+  "runtime_files_matched": 50,
+  "scope": "PyDara with the TSE data module; no analysis or ML modules yet"
+}

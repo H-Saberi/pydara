@@ -1,0 +1,384 @@
+{
+  "note": "ALL NUMBERS ARE SYNTHETIC; source-shaped fixtures, not recorded live market observations.",
+  "market.watch": {
+    "marketwatch": [
+      {
+        "insCode": "46348559193224090",
+        "lva": "فولاد",
+        "lvc": "نمونه فولاد",
+        "dEven": 20260110,
+        "hEven": 123001,
+        "pClosing": 1500.25,
+        "pDrCotVal": 1510.5,
+        "priceFirst": 1480.0,
+        "priceMin": 1475.0,
+        "priceMax": 1525.0,
+        "priceYesterday": 1490.0,
+        "qTotTran5J": 1000000.0,
+        "qTotCap": 1500000000.5,
+        "zTotTran": 230.0,
+        "flow": 1,
+        "yVal": "300",
+        "csv": "27",
+        "eps": -100.0,
+        "pe": "-",
+        "bv": 12345.0,
+        "ztd": 10000000000.0,
+        "insID": "SYNTHETIC_FOLAD",
+        "blDs": [
+          {
+            "n": 1,
+            "qmd": 100,
+            "zmd": 2,
+            "pmd": 1510.0,
+            "pmo": 1511.0,
+            "zmo": 3,
+            "qmo": 200,
+            "rid": 990
+          }
+        ]
+      },
+      {
+        "insCode": "2400322364771558",
+        "lva": "شستا",
+        "lvc": "نمونه شستا",
+        "dEven": 20260110,
+        "hEven": 123001,
+        "pClosing": 1500.25,
+        "pDrCotVal": 1510.5,
+        "priceFirst": 1480.0,
+        "priceMin": 1475.0,
+        "priceMax": 1525.0,
+        "priceYesterday": 1490.0,
+        "qTotTran5J": 1000000.0,
+        "qTotCap": 1500000000.5,
+        "zTotTran": 230.0,
+        "flow": 2,
+        "yVal": "300",
+        "csv": "27",
+        "eps": -100.0,
+        "pe": "-",
+        "bv": 12345.0,
+        "ztd": 10000000000.0,
+        "insID": "SYNTHETIC_SHESTA",
+        "blDs": []
+      }
+    ]
+  },
+  "clients.market": {
+    "clientTypeAllDto": [
+      {
+        "insCode": "46348559193224090",
+        "buy_I_Volume": 600000.0,
+        "buy_N_Volume": 400000.0,
+        "buy_DDD_Volume": 0.0,
+        "buy_CountI": 250,
+        "buy_CountN": 10,
+        "buy_CountDDD": 0,
+        "sell_I_Volume": 550000.0,
+        "sell_N_Volume": 450000.0,
+        "sell_CountI": 300,
+        "sell_CountN": 9
+      }
+    ]
+  },
+  "clients.latest": {
+    "clientType": {
+      "buy_I_Volume": 600000.0,
+      "buy_N_Volume": 400000.0,
+      "buy_DDD_Volume": 0.0,
+      "buy_CountI": 250,
+      "buy_CountN": 10,
+      "buy_CountDDD": 0,
+      "sell_I_Volume": 550000.0,
+      "sell_N_Volume": 450000.0,
+      "sell_CountI": 300,
+      "sell_CountN": 9
+    }
+  },
+  "clients.history": {
+    "clientType": [
+      {
+        "insCode": "0",
+        "recDate": 20260111,
+        "buy_I_Volume": 600000.0,
+        "buy_N_Volume": 400000.0,
+        "buy_I_Value": 900000000.0,
+        "buy_N_Value": 600000000.0,
+        "buy_I_Count": 250.0,
+        "buy_N_Count": 10,
+        "sell_I_Count": 300,
+        "sell_N_Count": 9,
+        "sell_I_Volume": 550000.0,
+        "sell_N_Volume": 450000.0,
+        "sell_I_Value": 850000000.0,
+        "sell_N_Value": 650000000.0
+      },
+      {
+        "insCode": "0",
+        "recDate": 20260110,
+        "buy_I_Volume": 600000.0,
+        "buy_N_Volume": 400000.0,
+        "buy_I_Value": 900000000.0,
+        "buy_N_Value": 600000000.0,
+        "buy_I_Count": 250.0,
+        "buy_N_Count": 10,
+        "sell_I_Count": 300,
+        "sell_N_Count": 9,
+        "sell_I_Volume": 550000.0,
+        "sell_N_Volume": 450000.0,
+        "sell_I_Value": 850000000.0,
+        "sell_N_Value": 650000000.0
+      }
+    ]
+  },
+  "market.overview": {
+    "marketOverview": {
+      "indexLastValue": 2000000.25,
+      "indexChange": -10000.0,
+      "indexEqualWeightedLastValue": 500000.0,
+      "indexEqualWeightedChange": -400.0,
+      "lastDataDEven": 20260111,
+      "lastDataHEven": 123001,
+      "marketActivityDEven": 20260111,
+      "marketActivityHEven": 123000,
+      "marketActivityQTotCap": 123456789.0,
+      "marketActivityQTotTran": 123456.0,
+      "marketActivityZTotTran": 500,
+      "marketState": "F",
+      "marketStateTitle": "بسته",
+      "marketValue": 1.2345678901234568e+16,
+      "marketValueBase": 100000000000.0
+    }
+  },
+  "indices.list.1": {
+    "indexB1": [
+      {
+        "insCode": "32097828799138957",
+        "dEven": 20260111,
+        "hEven": 123000,
+        "xDrNivJIdx004": 2000000.25,
+        "xPhNivJIdx004": 2001000.25,
+        "xPbNivJIdx004": 1999000.25,
+        "xVarIdxJRfV": -0.5,
+        "last": true,
+        "indexChange": -10000.0,
+        "lVal30": "شاخص کل",
+        "c1": 1,
+        "c2": 2,
+        "c3": 3,
+        "c4": 4
+      },
+      {
+        "insCode": "67130298613737946",
+        "dEven": 20260111,
+        "hEven": 123000,
+        "xDrNivJIdx004": 2000000.25,
+        "xPhNivJIdx004": 2001000.25,
+        "xPbNivJIdx004": 1999000.25,
+        "xVarIdxJRfV": -0.5,
+        "last": true,
+        "indexChange": -10000.0,
+        "lVal30": "شاخص کل هم وزن",
+        "c1": 1,
+        "c2": 2,
+        "c3": 3,
+        "c4": 4
+      }
+    ]
+  },
+  "indices.list.2": {
+    "indexB1": [
+      {
+        "insCode": "43685683301327984",
+        "dEven": 20260111,
+        "hEven": 123000,
+        "xDrNivJIdx004": 2000000.25,
+        "xPhNivJIdx004": 2001000.25,
+        "xPbNivJIdx004": 1999000.25,
+        "xVarIdxJRfV": -0.5,
+        "last": true,
+        "indexChange": -10000.0,
+        "lVal30": "شاخص فرابورس",
+        "c1": 1,
+        "c2": 2,
+        "c3": 3,
+        "c4": 4
+      }
+    ]
+  },
+  "indices.history": {
+    "indexB2": [
+      {
+        "insCode": 0,
+        "dEven": 20260111,
+        "xNivInuClMresIbs": 2000000.0,
+        "xNivInuPbMresIbs": 1999000.0,
+        "xNivInuPhMresIbs": 2001000.0
+      },
+      {
+        "insCode": 0,
+        "dEven": 20260110,
+        "xNivInuClMresIbs": 2000001.0,
+        "xNivInuPbMresIbs": 1999000.0,
+        "xNivInuPhMresIbs": 2001000.0
+      }
+    ]
+  },
+  "indices.intraday": {
+    "indexB1": [
+      {
+        "insCode": null,
+        "dEven": 20260111,
+        "hEven": 123000,
+        "xDrNivJIdx004": 2000000.25,
+        "xPhNivJIdx004": 2001000.25,
+        "xPbNivJIdx004": 1999000.25,
+        "xVarIdxJRfV": -0.5,
+        "last": true,
+        "indexChange": -10000.0,
+        "lVal30": null,
+        "c1": 1,
+        "c2": 2,
+        "c3": 3,
+        "c4": 4
+      },
+      {
+        "insCode": null,
+        "dEven": 20260111,
+        "hEven": 90000,
+        "xDrNivJIdx004": 2000000.25,
+        "xPhNivJIdx004": 2001000.25,
+        "xPbNivJIdx004": 1999000.25,
+        "xVarIdxJRfV": -0.5,
+        "last": true,
+        "indexChange": -10000.0,
+        "lVal30": null,
+        "c1": 1,
+        "c2": 2,
+        "c3": 3,
+        "c4": 4
+      },
+      {
+        "insCode": null,
+        "dEven": 20260111,
+        "hEven": 90000,
+        "xDrNivJIdx004": 2000000.25,
+        "xPhNivJIdx004": 2001000.25,
+        "xPbNivJIdx004": 1999000.25,
+        "xVarIdxJRfV": -0.5,
+        "last": true,
+        "indexChange": -10000.0,
+        "lVal30": null,
+        "c1": 1,
+        "c2": 2,
+        "c3": 3,
+        "c4": 4
+      }
+    ]
+  },
+  "indices.members": {
+    "indexCompany": [
+      {
+        "insCode": "0",
+        "dEven": 20260111,
+        "hEven": 120000,
+        "pClosing": 1500.25,
+        "pDrCotVal": 1510.5,
+        "qTotTran5J": 1000.0,
+        "qTotCap": 1500000.0,
+        "zTotTran": 30.0,
+        "priceFirst": 1490.0,
+        "priceMin": 1475.0,
+        "priceMax": 1525.0,
+        "priceYesterday": 1490.0,
+        "instrument": {
+          "insCode": "46348559193224090",
+          "lVal18AFC": "فولاد",
+          "lVal30": "نمونه",
+          "flow": 1,
+          "zTitad": 100000.0,
+          "yVal": "300"
+        }
+      }
+    ],
+    "relatedCompanyThirtyDayHistory": []
+  },
+  "indices.impact": {
+    "instEffect": [
+      {
+        "insCode": "46348559193224090",
+        "lVal18AFC": "فولاد",
+        "instEffect": -123.5
+      }
+    ]
+  },
+  "market.sectors": {
+    "sectorSummeries": [
+      {
+        "cSecVal": "27",
+        "lSecVal": "فلزات",
+        "c1": 10,
+        "c2": 20,
+        "c3": 30,
+        "c4": 40
+      }
+    ]
+  },
+  "market.related": {
+    "relatedCompany": [
+      {
+        "insCode": "0",
+        "dEven": 20260111,
+        "hEven": 120000,
+        "pClosing": 1500.25,
+        "pDrCotVal": 1510.5,
+        "qTotTran5J": 1000.0,
+        "qTotCap": 1500000.0,
+        "zTotTran": 30.0,
+        "priceFirst": 1490.0,
+        "priceMin": 1475.0,
+        "priceMax": 1525.0,
+        "priceYesterday": 1490.0,
+        "instrument": {
+          "insCode": "46348559193224090",
+          "lVal18AFC": "فولاد",
+          "lVal30": "نمونه",
+          "flow": 1,
+          "zTitad": 100000.0,
+          "yVal": "300"
+        }
+      }
+    ],
+    "relatedCompanyThirtyDayHistory": []
+  },
+  "market.statistics": {
+    "instValueAllInstAllParam": [
+      {
+        "insCode": "46348559193224090",
+        "dataType": 1,
+        "dEven": 20260111,
+        "dataValue": "0.0123"
+      }
+    ]
+  },
+  "market.map": [
+    {
+      "insCode": "46348559193224090",
+      "dEven": 20260111,
+      "hEven": 123000,
+      "lVal18AFC": "فولاد",
+      "lVal30": "نمونه",
+      "pClosing": 1500.25,
+      "pDrCotVal": 1510.5,
+      "qTotTran5J": 10000.0,
+      "qTotCap": 15000000.0,
+      "zTotTran": 100.0,
+      "priceYesterday": 1490.0,
+      "lSecVal": "فلزات",
+      "marketCap": 1234567890.0,
+      "percent": 5.0,
+      "priceChangePercent": -1.5
+    }
+  ]
+}

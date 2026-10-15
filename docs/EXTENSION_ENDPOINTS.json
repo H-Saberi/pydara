@@ -1,0 +1,182 @@
+[
+  {
+    "endpoint_id": "extra.futures",
+    "path": "https://webgw.tse.ir/InstrumentProvider/api/v1/MarketWatch/MarketWatchFuture/fa",
+    "root": "Items",
+    "cache_seconds": 60,
+    "schema": "futures",
+    "evidence": "source_reviewed_synthetic_tested",
+    "live_verified": false
+  },
+  {
+    "endpoint_id": "extra.trades",
+    "path": "Trade/GetTrade/{code}",
+    "root": "trade",
+    "cache_seconds": 5,
+    "schema": "trades",
+    "evidence": "source_reviewed_synthetic_tested",
+    "live_verified": false
+  },
+  {
+    "endpoint_id": "extra.trades.day",
+    "path": "Trade/GetTradeHistory/{code}/{day}/true",
+    "root": "tradeHistory",
+    "cache_seconds": 3600,
+    "schema": "trades",
+    "evidence": "source_reviewed_synthetic_tested",
+    "live_verified": false
+  },
+  {
+    "endpoint_id": "extra.book",
+    "path": "BestLimits/{code}",
+    "root": "bestLimits",
+    "cache_seconds": 5,
+    "schema": "order_book",
+    "evidence": "source_reviewed_synthetic_tested",
+    "live_verified": false
+  },
+  {
+    "endpoint_id": "extra.book.day",
+    "path": "BestLimits/{code}/{day}",
+    "root": "bestLimitsHistory",
+    "cache_seconds": 3600,
+    "schema": "order_book",
+    "evidence": "source_reviewed_synthetic_tested",
+    "live_verified": false
+  },
+  {
+    "endpoint_id": "extra.states",
+    "path": "MarketData/GetInstrumentState/{code}/{day}",
+    "root": "instrumentState",
+    "cache_seconds": 300,
+    "schema": "instrument_states",
+    "evidence": "source_reviewed_synthetic_tested",
+    "live_verified": false
+  },
+  {
+    "endpoint_id": "extra.thresholds",
+    "path": "MarketData/GetStaticThreshold/{code}/{day}",
+    "root": "staticThreshold",
+    "cache_seconds": 300,
+    "schema": "thresholds",
+    "evidence": "source_reviewed_synthetic_tested",
+    "live_verified": false
+  },
+  {
+    "endpoint_id": "extra.shareholders",
+    "path": "Shareholder/GetInstrumentShareHolderLast/{code}",
+    "root": "shareHolder",
+    "cache_seconds": 3600,
+    "schema": "shareholders",
+    "evidence": "source_reviewed_synthetic_tested",
+    "live_verified": false
+  },
+  {
+    "endpoint_id": "extra.shareholders.history",
+    "path": "Shareholder/GetShareHolderHistory/{code}/{holder}/{days}",
+    "root": "shareHolder",
+    "cache_seconds": 3600,
+    "schema": "shareholders",
+    "evidence": "source_reviewed_synthetic_tested",
+    "live_verified": false
+  },
+  {
+    "endpoint_id": "extra.shares",
+    "path": "Instrument/GetInstrumentShareChange/{code}",
+    "root": "instrumentShareChange",
+    "cache_seconds": 3600,
+    "schema": "share_capital",
+    "evidence": "source_reviewed_synthetic_tested",
+    "live_verified": false
+  },
+  {
+    "endpoint_id": "extra.adjustments",
+    "path": "ClosingPrice/GetPriceAdjustList/{code}",
+    "root": "priceAdjust",
+    "cache_seconds": 3600,
+    "schema": "adjustments",
+    "evidence": "source_reviewed_synthetic_tested",
+    "live_verified": false
+  },
+  {
+    "endpoint_id": "extra.funds",
+    "path": "Fund/GetFunds/{category}",
+    "root": "funds",
+    "cache_seconds": 3600,
+    "schema": "funds",
+    "evidence": "source_reviewed_synthetic_tested",
+    "live_verified": false
+  },
+  {
+    "endpoint_id": "extra.fund",
+    "path": "Fund/GetFundInDetail/{registration}",
+    "root": "fund",
+    "cache_seconds": 3600,
+    "schema": "funds",
+    "evidence": "source_reviewed_synthetic_tested",
+    "live_verified": false
+  },
+  {
+    "endpoint_id": "extra.nav",
+    "path": "Fund/GetFundInDetail/{registration}",
+    "root": "fund",
+    "cache_seconds": 3600,
+    "schema": "fund_nav",
+    "evidence": "source_reviewed_synthetic_tested",
+    "live_verified": false
+  },
+  {
+    "endpoint_id": "extra.disclosures",
+    "path": "Codal/GetPreparedDataByInsCode/{limit}/{code}",
+    "root": "preparedData",
+    "cache_seconds": 300,
+    "schema": "disclosures",
+    "evidence": "source_reviewed_synthetic_tested",
+    "live_verified": false
+  },
+  {
+    "endpoint_id": "extra.messages",
+    "path": "Msg/GetMsgByInsCode/{code}",
+    "root": "msg",
+    "cache_seconds": 60,
+    "schema": "messages",
+    "evidence": "source_reviewed_synthetic_tested",
+    "live_verified": false
+  },
+  {
+    "endpoint_id": "extra.options",
+    "path": "Instrument/GetInstrumentOptionMarketWatch/0",
+    "root": "instrumentOptMarketWatch",
+    "cache_seconds": 30,
+    "schema": "options",
+    "evidence": "source_reviewed_synthetic_tested",
+    "live_verified": false
+  },
+  {
+    "endpoint_id": "extra.boards",
+    "path": "https://members.tsetmc.com/Loader.aspx?ParTree=111C1913",
+    "root": "__text__",
+    "cache_seconds": 86400,
+    "schema": "boards",
+    "evidence": "source_reviewed_synthetic_tested",
+    "live_verified": false
+  },
+  {
+    "endpoint_id": "extra.dividends",
+    "path": "https://old.tsetmc.com/tsev2/data/DPSData.aspx?s={symbol}",
+    "root": "__text__",
+    "cache_seconds": 3600,
+    "schema": "dividends",
+    "evidence": "source_reviewed_synthetic_tested",
+    "live_verified": false
+  },
+  {
+    "endpoint_id": "extra.adjusted",
+    "path": "https://members.tsetmc.com/tsev2/chart/data/Financial.aspx?i={code}&t=ph&a=1",
+    "root": "__text__",
+    "cache_seconds": 3600,
+    "schema": "adjusted_history",
+    "evidence": "source_reviewed_synthetic_tested",
+    "live_verified": false
+  }
+]

@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pydara"
+version = "0.7.3a6"
+description = "PyDara financial data modules: TSE quotes, history, typed exports and versioned local storage"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+authors = [{name = "PyDara contributors"}]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Office/Business :: Financial",
+]
+dependencies = [
+  "httpx>=0.27,<0.29",
+  "pandas>=2.2,<4",
+  "platformdirs>=4,<5",
+  "tzdata>=2024.1",
+]
+
+[project.optional-dependencies]
+excel = ["openpyxl>=3.1.5,<4"]
+parquet = ["pyarrow>=19"]
+files = ["openpyxl>=3.1.5,<4", "pyarrow>=19"]
+test = ["pytest>=8,<10"]
+notebook = ["ipykernel>=6", "nbformat>=5", "nbclient>=0.10"]
+
+[project.urls]
+Source = "https://github.com/H-Saberi/pydara"
+Issues = "https://github.com/H-Saberi/pydara/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+pydara = ["py.typed", "tse/samples/*.json", "tse/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 99

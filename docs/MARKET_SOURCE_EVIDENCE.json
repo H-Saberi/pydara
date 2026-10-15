@@ -1,0 +1,119 @@
+{
+  "reviewed_at": "2026-10-14",
+  "validation": "source review plus synthetic tests; no live endpoint certification",
+  "base_version": "0.3.1a1",
+  "new_version": "0.4.0a1",
+  "sources": [
+    {
+      "url": "https://github.com/5j9/tsetmc/blob/af5f4578fe4a21030759c8ed1cef3f72a00834ab/tsetmc/market_watch.py",
+      "use": "watch routes, legacy format, bulk client/stats roots"
+    },
+    {
+      "url": "https://github.com/5j9/tsetmc/blob/af5f4578fe4a21030759c8ed1cef3f72a00834ab/tsetmc/instruments.py",
+      "use": "client-type current/full/single-day routes"
+    },
+    {
+      "url": "https://github.com/5j9/tsetmc/blob/af5f4578fe4a21030759c8ed1cef3f72a00834ab/tsetmc/indices.py",
+      "use": "catalog, daily, intraday, members endpoints"
+    },
+    {
+      "url": "https://github.com/5j9/tsetmc/blob/af5f4578fe4a21030759c8ed1cef3f72a00834ab/tsetmc/general.py",
+      "use": "overview, sector, map, related-company roots"
+    },
+    {
+      "url": "https://github.com/5j9/tsetmc/blob/main/tests/test_indices.py",
+      "use": "source-shaped schemas, nullable IDs, nested members"
+    },
+    {
+      "url": "https://github.com/5j9/tsetmc/blob/main/tests/test_market_watch.py",
+      "use": "new watch aliases, book fields, absent client-type date/value"
+    },
+    {
+      "url": "https://github.com/BabakEslami/tse-market-data/blob/main/ENDPOINTS.md",
+      "use": "community endpoint evidence only, index-effect raw-only; independent live verification still required"
+    }
+  ],
+  "routes": {
+    "market.watch": {
+      "path": "ClosingPrice/GetMarketWatch",
+      "root": "marketwatch",
+      "cache_seconds": 0
+    },
+    "market.watch.legacy": {
+      "path": "https://old.tsetmc.com/tsev2/data/MarketWatchInit.aspx?h=0&r=0",
+      "root": "",
+      "cache_seconds": 0
+    },
+    "market.overview": {
+      "path": "MarketData/GetMarketOverview/{flow}",
+      "root": "marketOverview",
+      "cache_seconds": 0
+    },
+    "market.map": {
+      "path": "ClosingPrice/GetMarketMap",
+      "root": "",
+      "cache_seconds": 0
+    },
+    "market.sectors": {
+      "path": "MarketData/GetSectorsSummary",
+      "root": "sectorSummeries",
+      "cache_seconds": 3600
+    },
+    "market.related": {
+      "path": "ClosingPrice/GetRelatedCompany/{sector}",
+      "root": "relatedCompany",
+      "cache_seconds": 60
+    },
+    "market.statistics": {
+      "path": "MarketData/GetInstValueAllInstAllParam",
+      "root": "instValueAllInstAllParam",
+      "cache_seconds": 3600
+    },
+    "clients.latest": {
+      "path": "ClientType/GetClientType/{code}/1/0",
+      "root": "clientType",
+      "cache_seconds": 0
+    },
+    "clients.history": {
+      "path": "ClientType/GetClientTypeHistory/{code}",
+      "root": "clientType",
+      "cache_seconds": 3600
+    },
+    "clients.day": {
+      "path": "ClientType/GetClientTypeHistory/{code}/{day}",
+      "root": "clientType",
+      "cache_seconds": 3600
+    },
+    "clients.market": {
+      "path": "ClientType/GetClientTypeAll",
+      "root": "clientTypeAllDto",
+      "cache_seconds": 0
+    },
+    "indices.list": {
+      "path": "Index/GetIndexB1LastAll/All/{flow}",
+      "root": "indexB1",
+      "cache_seconds": 60
+    },
+    "indices.history": {
+      "path": "Index/GetIndexB2History/{code}",
+      "root": "indexB2",
+      "cache_seconds": 3600
+    },
+    "indices.intraday": {
+      "path": "Index/GetIndexB1LastDay/{code}",
+      "root": "indexB1",
+      "cache_seconds": 0
+    },
+    "indices.members": {
+      "path": "ClosingPrice/GetIndexCompany/{code}",
+      "root": "indexCompany",
+      "cache_seconds": 60
+    },
+    "indices.impact": {
+      "path": "Index/GetInstEffect/0/{flow}/{top}",
+      "root": "instEffect",
+      "cache_seconds": 0
+    }
+  },
+  "fixture": "Generated artificial prices/names/counts; not downloaded real responses or redistributions of third-party test data."
+}

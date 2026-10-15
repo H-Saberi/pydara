@@ -1,0 +1,239 @@
+{
+  "extra.trades": {
+    "trade": [
+      {
+        "nTran": 11,
+        "hEven": 100201,
+        "pTran": 103,
+        "qTitTran": 20
+      },
+      {
+        "nTran": 12,
+        "hEven": 100201,
+        "pTran": 104,
+        "qTitTran": 30
+      }
+    ]
+  },
+  "extra.trades.day": {
+    "tradeHistory": [
+      {
+        "nTran": 11,
+        "hEven": 100201,
+        "pTran": 103,
+        "qTitTran": 20
+      },
+      {
+        "nTran": 12,
+        "hEven": 100201,
+        "pTran": 104,
+        "qTitTran": 30
+      }
+    ]
+  },
+  "extra.book": {
+    "bestLimits": [
+      {
+        "number": 1,
+        "pMeDem": 102,
+        "pMeOf": 104,
+        "qTitMeDem": 20,
+        "qTitMeOf": 30,
+        "zOrdMeDem": 2,
+        "zOrdMeOf": 3
+      }
+    ]
+  },
+  "extra.book.day": {
+    "bestLimitsHistory": [
+      {
+        "number": 1,
+        "hEven": 100000,
+        "refID": 11,
+        "pMeDem": 102,
+        "pMeOf": 104,
+        "qTitMeDem": 20,
+        "qTitMeOf": 30,
+        "zOrdMeDem": 2,
+        "zOrdMeOf": 3
+      },
+      {
+        "number": 1,
+        "hEven": 100001,
+        "refID": 12,
+        "pMeDem": 103,
+        "pMeOf": 104,
+        "qTitMeDem": 10,
+        "qTitMeOf": 30,
+        "zOrdMeDem": 1,
+        "zOrdMeOf": 3
+      }
+    ]
+  },
+  "extra.states": {
+    "instrumentState": [
+      {
+        "idn": 1,
+        "hEven": 90000,
+        "cEtaval": "A ",
+        "cEtavalTitle": "مجاز"
+      }
+    ]
+  },
+  "extra.thresholds": {
+    "staticThreshold": [
+      {
+        "hEven": 90000,
+        "psGelStaMin": 90,
+        "psGelStaMax": 110
+      }
+    ]
+  },
+  "extra.shareholders": {
+    "shareHolder": [
+      {
+        "shareHolderID": 123,
+        "shareHolderShareID": 456,
+        "shareHolderName": "سهامدار نمونه",
+        "dEven": 20250318,
+        "numberOfShares": 100000,
+        "perOfShares": 2.5,
+        "changeAmount": -100
+      }
+    ]
+  },
+  "extra.shareholders.history": {
+    "shareHolder": [
+      {
+        "shareHolderID": 123,
+        "dEven": 20250317,
+        "numberOfShares": 100100,
+        "perOfShares": 2.51,
+        "changeAmount": 0
+      },
+      {
+        "shareHolderID": 123,
+        "dEven": 20250318,
+        "numberOfShares": 100000,
+        "perOfShares": 2.5,
+        "changeAmount": -100
+      }
+    ]
+  },
+  "extra.shares": {
+    "instrumentShareChange": [
+      {
+        "id": 23,
+        "dEven": 20250318,
+        "numberOfShareOld": 2000000,
+        "numberOfShareNew": 4000000
+      }
+    ]
+  },
+  "extra.adjustments": {
+    "priceAdjust": [
+      {
+        "dEven": 20250318,
+        "pClosingNotAdjusted": 200,
+        "pClosing": 100
+      }
+    ]
+  },
+  "extra.funds": {
+    "funds": [
+      {
+        "regNo": 7001,
+        "name": "صندوق نمونه",
+        "recordDate": "2025-03-18T12:00:00",
+        "initiationDate": "2020-01-01T00:00:00"
+      }
+    ]
+  },
+  "extra.fund": {
+    "fund": {
+      "regNo": 7001,
+      "name": "صندوق نمونه",
+      "recordDate": "2025-03-18T12:00:00",
+      "initiationDate": "2020-01-01T00:00:00",
+      "stats": [
+        {
+          "recordDate": "2025-03-17T12:00:00",
+          "navSub": 1100,
+          "navRed": 1080,
+          "navStat": 1090,
+          "netAsset": 109000000
+        },
+        {
+          "recordDate": "2025-03-18T12:00:00",
+          "navSub": 1105,
+          "navRed": 1085,
+          "navStat": 1095,
+          "netAsset": 109500000
+        }
+      ]
+    }
+  },
+  "extra.disclosures": {
+    "preparedData": [
+      {
+        "tracingNo": "12001",
+        "title": "اطلاعیه مصنوعی",
+        "publishDateTime_DEven": 20250318,
+        "publishDateTime_Gregorian": "2025-03-18T15:00:00",
+        "sentDateTime_Gregorian": "2025-03-18T14:30:00",
+        "hasHtmlReport": 1,
+        "hasPDFReport": 1,
+        "hasExcelReport": 0,
+        "hasXMLReport": 0
+      }
+    ]
+  },
+  "extra.messages": {
+    "msg": [
+      {
+        "tseMsgIdn": 10,
+        "dEven": 20250318,
+        "hEven": 93000,
+        "tseTitle": "نمونه",
+        "tseDesc": "پیام مصنوعی",
+        "flow": 1
+      }
+    ]
+  },
+  "extra.options": {
+    "instrumentOptMarketWatch": [
+      {
+        "insCode_P": "70000000000000111",
+        "insCode_C": "70000000000000222",
+        "uaInsCode": "46348559193224090",
+        "lVal18AFC_P": "طنمونه",
+        "lVal18AFC_C": "ضنمونه",
+        "lVal30_P": "اختیار فروش نمونه",
+        "lVal30_C": "اختیار خرید نمونه",
+        "lval30_UA": "فولاد",
+        "endDate": "20270321",
+        "strikePrice": 5000,
+        "contractSize": 1000,
+        "pClosing_P": 50,
+        "pClosing_C": 70
+      }
+    ]
+  },
+  "extra.futures": {
+    "Items": [
+      {
+        "instrumentId": "IRO_SYNTH_FUT1",
+        "instrumentName": "آتی نمونه",
+        "companyNamePersian": "ساختگی",
+        "lastPrice": 1000,
+        "closingPrice": 990,
+        "tradeVolume": 10,
+        "tradeValue": 10000,
+        "tradeCount": 2
+      }
+    ]
+  },
+  "extra.boards": "<html><table><tr><th>Code</th><th>Title</th></tr><tr><td>1</td><td>Sample board</td></tr><tr><td>2</td><td>Other board</td></tr></table></html>",
+  "extra.dividends": "1403/12/28@1403/12/25@1403/09/30@200000@150000@100000@50;",
+  "extra.adjusted": "20250317,110,100,101,108,2000,106;20250318,115,105,106,114,3000,112;"
+}

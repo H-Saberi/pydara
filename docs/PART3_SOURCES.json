@@ -1,0 +1,12 @@
+{
+  "research_date": "2026-10-13",
+  "sources": [
+    {"url":"https://www.sqlite.org/wal.html", "use":"WAL concurrency and local-filesystem restrictions"},
+    {"url":"https://pandas.pydata.org/pandas-docs/version/2.2/user_guide/io.html", "use":"Parquet engines, dtype caveats"},
+    {"url":"https://openpyxl.readthedocs.io/en/3.1.2/_modules/openpyxl/cell/cell.html", "use":"Literal cell types and formula detection"},
+    {"url":"https://packaging.python.org/en/latest/guides/writing-pyproject-toml/", "use":"Optional dependency groups and packaging"},
+    {"url":"https://github.com/5j9/tsetmc/blob/af5f4578fe4a21030759c8ed1cef3f72a00834ab/tsetmc/instruments.py", "use":"Previously reviewed daily_closing_price row-count endpoint, not copied code"}
+  ],
+  "live_endpoint_verified_in_this_build": false,
+  "limits": "Observed local tests and user notebook results do not certify live API availability or data completeness."
+}

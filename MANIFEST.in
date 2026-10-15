@@ -1,0 +1,8 @@
+include LICENSE THIRD_PARTY_NOTICES.md README.md README_FA.md CHANGELOG.md SECURITY.md
+include install.py INSTALL_WINDOWS.bat BUNDLE.json
+recursive-include docs *.md *.json *.html
+recursive-include tests *.py
+recursive-include examples *.ipynb *.py
+recursive-include tools *.py *.ps1
+recursive-include src/pydara *.json py.typed
+global-exclude __pycache__ *.py[cod] *.sqlite3 *.sqlite3-wal *.sqlite3-shm
