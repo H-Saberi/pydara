@@ -7,10 +7,10 @@
 
 ## نصب
 
-نسخهٔ سورس این مخزن `0.7.3a6` است. دستور زیر مربوط به نسخهٔ منتشرشدهٔ قبلی در PyPI است:
+نسخهٔ این انتشار آزمایشی `0.7.3a6` است. نصب از PyPI:
 
 ```console
-python -m pip install --upgrade pydara==0.6.0a2
+python -m pip install --upgrade pydara==0.7.3a6
 ```
 
 برای نصب نسخهٔ فعلی از سورس GitHub:
@@ -27,7 +27,7 @@ python -m pip install .
 برای Excel، Parquet و Notebook:
 
 ```console
-python -m pip install --upgrade "pydara[files,notebook]==0.6.0a2"
+python -m pip install --upgrade "pydara[files,notebook]==0.7.3a6"
 ```
 
 نصب محلی بستهٔ آماده: `python install.py` در محیط پایتون فعال.

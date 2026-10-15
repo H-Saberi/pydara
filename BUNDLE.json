@@ -3,7 +3,7 @@
   "bundle_revision": 1,
   "package_version": "0.7.3a6",
   "wheel": "dist/pydara-0.7.3a6-py3-none-any.whl",
-  "wheel_sha256": "8e34bda82c9b2e616a2cf892966cc788d6ba22b2383817b93406ee2f979a5996",
+  "wheel_sha256": "7e1fdc30b9de9f1239f85f549c3e44c288e6721660616654ba0dce307325c7ac",
   "extras": [
     "files",
     "notebook"

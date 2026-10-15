@@ -8,16 +8,16 @@ outputs, versioned SQLite storage and typed file exports.
 
 ## Install
 
-Requires Python 3.12 or newer. The following PyPI command is for the previously published 0.6.0a2 release:
+Requires Python 3.12 or newer. Install this alpha release from PyPI:
 
 ```console
-python -m pip install --upgrade pydara==0.6.0a2
+python -m pip install --upgrade pydara==0.7.3a6
 ```
 
 Optional Excel, Parquet and notebook support:
 
 ```console
-python -m pip install --upgrade "pydara[files,notebook]==0.6.0a2"
+python -m pip install --upgrade "pydara[files,notebook]==0.7.3a6"
 ```
 
 For a local release bundle, activate your Python environment and run
